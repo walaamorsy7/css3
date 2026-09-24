@@ -1,10 +1,10 @@
- /* font-family: "Cairo", sans-serif; */
-  /* font-family: "Tajawal", sans-serif; */
 
+/* دا علشان كل العناصر */
 *{
     padding: 0;
     margin: 0;
 }
+
 div{
     min-height: 550px;
     background-image:  linear-gradient(to right , rgba(99, 102, 241, 0.85) , rgba(236 , 72 , 153 , 0.75)), url("image/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
@@ -14,7 +14,7 @@ div{
      text-align: center;
     
 }
-
+/* دا الشاره الصغيره */
 div .pan{
  font-family: "Tajawal", sans-serif; 
  font-size: 14px;
@@ -23,8 +23,11 @@ div .pan{
  background-color: rgba(255, 255, 255, 0.2);
  padding: 8px 20px ;
  border-radius: 50px;
+ width: fit-content;
+margin: 0 auto;
 
 }
+/* دا العنوان الرئيسي */
 div h1{
     font-family: "Cairo", sans-serif;
      font-size: 48px ;
@@ -35,7 +38,7 @@ line-height: 1.4;
 max-width: 750px;
 margin: 20px auto;
 }
-
+/* دا الوصف للأكاديميه */
 div .p{
     font-family: "Tajawal", sans-serif;
         font-size: 18px ;
@@ -46,7 +49,7 @@ max-width: 600px;
 margin: 20px auto;
 
 }
-
+/* الزرار الاول  */
 div .btn{
     font-family: "Cairo", sans-serif;
     border: none;
@@ -61,7 +64,7 @@ margin-left: 40px;
 }
 
 
-
+/* الزرار التاني */
 div .button{
     font-family: "Cairo", sans-serif;
     border: 2px solid #ffffff;
@@ -72,7 +75,7 @@ div .button{
     font-weight: 700;
     padding: 14px 36px ;
 }
-
+/* النبذه الاخيره */
 div .star{
     font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
