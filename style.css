@@ -1,0 +1,81 @@
+ /* font-family: "Cairo", sans-serif; */
+  /* font-family: "Tajawal", sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    min-height: 550px;
+    background-image:  linear-gradient(to right , rgba(99, 102, 241, 0.85) , rgba(236 , 72 , 153 , 0.75)), url("image/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-align: center;
+    
+}
+
+div .pan{
+ font-family: "Tajawal", sans-serif; 
+ font-size: 14px;
+ color: #ffffff;
+ font-weight: 500;
+ background-color: rgba(255, 255, 255, 0.2);
+ padding: 8px 20px ;
+ border-radius: 50px;
+
+}
+div h1{
+    font-family: "Cairo", sans-serif;
+     font-size: 48px ;
+ color: #ffffff;
+ font-weight: 800;
+text-shadow: 4px 15px 5px rgba(0, 0, 0, 0.3) ;
+line-height: 1.4;
+max-width: 750px;
+margin: 20px auto;
+}
+
+div .p{
+    font-family: "Tajawal", sans-serif;
+        font-size: 18px ;
+ color: #f1f1f1;
+ font-weight: 400;
+ line-height: 1.8;
+max-width: 600px;
+margin: 20px auto;
+
+}
+
+div .btn{
+    font-family: "Cairo", sans-serif;
+    border: none;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #6366f1;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 36px ;
+    box-shadow: 8px 20px 0px rgba(0, 0, 0, 0.2) ;
+margin-left: 40px;
+}
+
+
+
+div .button{
+    font-family: "Cairo", sans-serif;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 36px ;
+}
+
+div .star{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Tajawal", sans-serif;
+    margin: 50px;
+}
